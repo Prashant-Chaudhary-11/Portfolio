@@ -1,5 +1,5 @@
 import prashantImage from '../static/prashant1.png';
-
+import cv from '../static/Prashant Resume.pdf';
 export const Home = () => {
     return (
         <section id="home" className='pt-3'>
@@ -11,7 +11,7 @@ export const Home = () => {
                         <h1>a Creative <span className='yellowWords'>Web Developer</span></h1>
                         <p className='my-3'>I'm an experienced full-stack web developer skilled in building dynamic and responsive websites, with a strong focus on delivering high-quality solutions.</p>
                         <div>
-                            <button className='yellowButton myBtn'>Download CV</button>
+                            <a href={cv} target='_blank' className='text-decoration-none'><button className='yellowButton myBtn'>Download CV</button></a>
                         </div>
                     </div>
                 </div>

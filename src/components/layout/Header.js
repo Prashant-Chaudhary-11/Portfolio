@@ -25,13 +25,43 @@ export const Header = () => {
     }, []);
 
     return (
-        <div className="header p-2 mt-3 d-flex flex-wrap justify-content-between position-sticky top-0 mx-auto z-3">
-            <a href="#home" className={`text-decoration-none header_pills py-2 px-3 ${activeSection === 'home' ? 'active' : ''}`}>Home</a>
-            <a href="#projects" className={`text-decoration-none header_pills py-2 px-3 ${activeSection === 'projects' ? 'active' : ''}`}>Projects</a>
-            <a href="#skills" className={`text-decoration-none header_pills py-2 px-3 ${activeSection === 'skills' ? 'active' : ''}`}>Skills</a>
-            <a href="#experience" className={`text-decoration-none header_pills py-2 px-3 ${activeSection === 'experience' ? 'active' : ''}`}>Experience</a>
-            <a href="#education" className={`text-decoration-none header_pills py-2 px-3 ${activeSection === 'education' ? 'active' : ''}`}>Education</a>
-            <a href="#contact" className={`text-decoration-none header_pills py-2 px-3 ${activeSection === 'contact' ? 'active' : ''}`}>Contact</a>
+        <div className="header p-2 mt-3 d-flex flex-wrap justify-content-between position-sticky mx-auto z-3">
+            <a href="#home" className={`text-decoration-none header_pills py-2 px-3 ${activeSection === 'home' ? 'active' : ''}`}>
+                <div className='d-flex align-items-center justify-content-center flex-column'>
+                    <span className='headerIcons'><i className="fa-solid fa-house"></i></span>
+                    <span className='headerText'>Home</span>
+                </div>
+            </a>
+            <a href="#projects" className={`text-decoration-none header_pills py-2 px-3 ${activeSection === 'projects' ? 'active' : ''}`}>
+                <div className='d-flex align-items-center justify-content-center flex-column'>
+                    <span className='headerIcons'><i className="fa-solid fa-list-check"></i></span>
+                    <span className='headerText'>Projects</span>
+                </div>
+            </a>
+            <a href="#skills" className={`text-decoration-none header_pills py-2 px-3 ${activeSection === 'skills' ? 'active' : ''}`}>
+                <div className='d-flex align-items-center justify-content-center flex-column'>
+                    <span className='headerIcons'><i className="fa-solid fa-code"></i></span>
+                    <span className='headerText'>Skills</span>
+                </div>
+            </a>
+            <a href="#experience" className={`text-decoration-none header_pills py-2 px-3 ${activeSection === 'experience' ? 'active' : ''}`}>
+                <div className='d-flex align-items-center justify-content-center flex-column'>
+                    <span className='headerIcons'><i className="fa-solid fa-building"></i></span>
+                    <span className='headerText'>Experience</span>
+                </div>
+            </a>
+            <a href="#education" className={`text-decoration-none header_pills py-2 px-3 ${activeSection === 'education' ? 'active' : ''}`}>
+                <div className='d-flex align-items-center justify-content-center flex-column'>
+                    <span className='headerIcons'><i className="fa-solid fa-user-graduate"></i></span>
+                    <span className='headerText'>Education</span>
+                </div>
+            </a>
+            <a href="#contact" className={`text-decoration-none header_pills py-2 px-3 ${activeSection === 'contact' ? 'active' : ''}`}>
+                <div className='d-flex align-items-center justify-content-center flex-column'>
+                    <span className='headerIcons'><i className="fa-solid fa-address-book"></i></span>
+                    <span className='headerText'>Contact</span>
+                </div>
+            </a>
         </div>
     );
 };

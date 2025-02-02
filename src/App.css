@@ -78,6 +78,7 @@ html {
 
 .header{
   background-color: var(--tertiary-color);
+  top: 0;
 }
 .footer {
   background-color: var(--secondary-color);
@@ -221,12 +222,32 @@ section {
   border: 2px solid var(--text-color);
   margin: auto;
 }
-
+.headerIcons{
+  display: none;
+}
 @media (max-width: 600px) {
   .header {
     border-radius: 0px;
+    width: 100%;
     margin: 0px !important;
-    justify-content: center !important;
-    padding: 15px 10px !important;
+    justify-content: between !important;
+    padding: 4px !important;
+    bottom: 0!important;
+    top: auto;
+    position: fixed!important;
+  }
+  .header a{
+    padding: 8px!important;
+    border-radius: 0px!important;
+  }
+  .header_pills.active{
+    background-color: var(--tertiary-color)!important;
+    color: var(--highlight-color)!important;
+  }
+  .headerIcons{
+    display: block;
+  }
+  .headerText{
+    font-size: 10px;
   }
 }
