@@ -1,0 +1,191 @@
+body{
+  background-color: #111827;
+  font-family: "Lexend", sans-serif;
+  color: #CFD1D4!important;
+}
+html {
+  scroll-behavior: smooth;
+}
+.yellowWords{
+  color: #FDAF43;
+}
+.myBtn{
+  border-radius: 30px;
+  border: none;
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.yellowButton{
+  background-color: #FDAF43;
+  color: #111827;
+}
+.yellowButton:hover{
+  background-color: #FBBF24;
+}
+.grayButton{
+  background-color: #6B7280;
+  color: #CFD1D4;
+}
+.grayButton:hover{
+  background-color: #4B5563;
+  transform: scale(1.05);
+}
+.outlineBtn{
+  background-color: transparent;
+  border: 1px solid #D1D5DB;
+  color: #D1D5DB;
+}
+.outlineBtn:hover{
+  background-color: #D1D5DB;
+  color: #111827;
+  transform: scale(1.05);
+}
+.header{
+  background-color: #060B17;;
+  max-width: 600px;
+  border-radius: 40px;
+}
+.footer{
+  background-color: #29303D;
+}
+.header_pills{
+  color: #D1D5DB!important;
+}
+.header_pills.active{
+  background-color: #29303D;
+  border-radius: 30px
+}
+.image-container{
+  background-color: #FDAF43;
+  max-width: 450px;
+  max-height: 450px;
+}
+.iconsDiv{
+  background-color: #111827;
+}
+.socialIcons{
+  width: 40px;
+  height: 40px;
+  background-color: #D1D5DB;
+}
+.socialIcons.fa-linkedin-in{
+  color: #0A66C2;
+}
+.socialIcons.fa-github{
+  color: #171515;
+}
+.socialIcons.fa-instagram{
+  color: #E4405F;
+}
+.socialIcons.fa-linkedin-in:hover{
+  background-color: #0A66C2;
+  color: #FFFFFF;
+  transition: 0.5s ease-in-out;
+}
+.socialIcons.fa-github:hover{
+  background-color: #171515;
+  color: #FFFFFF;
+  transition: 0.5s ease-in-out;
+}
+.socialIcons.fa-instagram:hover{
+  background-color: #E4405F;
+  color: #FFFFFF;
+  transition: 0.5s ease-in-out;
+}
+.contactDetails{
+  max-width: 600px;
+}
+.contact a{
+  color: #D1D5DB;
+}
+.form-control{
+  background-color: #CFD1D4;
+  border: none;
+}
+.form-control:focus{
+  box-shadow: none;
+}
+section{
+  padding: 50px 0px;
+}
+.education{
+  background-color: #29303D;
+  max-width: 600px;
+}
+
+.experience{
+  background-color: #29303D;
+  max-width: 600px;
+  margin-left: 70px!important;
+}
+.experienceHeadings{
+  font-size: 18px;
+}
+.vertical-timeline{
+  width: 95%;
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+.vertical-timeline::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 100%;
+  width: 4px;
+  background: #CFD1D4;
+}
+.vertical-timeline-element-icon{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  background-color: #111827;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0, 0, 0, .08), 0 3px 0 4px rgba(0, 0, 0, .05);
+  box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0, 0, 0, .08), 0 3px 0 4px rgba(0, 0, 0, .05);
+}
+.vertical-timeline-element-icon svg {
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  margin-left: -12px;
+  margin-top: -12px;
+}
+.arrowIcon{
+  top: 10px;
+  left: -9px;
+  font-size: 25px;
+}
+.skillImg{
+  width: auto;
+  max-width: 100px;
+  height: auto;
+  max-height: 100px;
+}
+.skills{
+  max-width: 800px;
+}
+.skillsDiv:hover{
+  transform: translateY(0px) scale(1.2) translateZ(0px);
+  transition: 0.2s ease;
+}
+.projectsDiv{
+  max-width: 600px;
+  background-color: #29303D;
+}
+@media (max-width: 600px) {
+  .header{
+    border-radius: 0px;
+    margin: 0px!important;
+    justify-content: center!important;
+    padding: 15px 10px!important;
+  }
+}
