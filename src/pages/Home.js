@@ -19,9 +19,9 @@ export const Home = () => {
                     <div className="image-container rounded-3 position-relative">
                         <img src={prashantImage} alt="Prashant Chaudhary" className="paint-img w-100 h-100" />
                         <div className='position-absolute start-0 bottom-0 iconsDiv p-2 rounded-end-4'>
-                            <i class="fa-brands socialIcons d-flex align-items-center justify-content-center mb-2 rounded-circle fa-linkedin-in"></i>
-                            <i class="fa-brands socialIcons d-flex align-items-center justify-content-center mb-2 rounded-circle fa-github"></i>
-                            <i class="fa-brands socialIcons d-flex align-items-center justify-content-center mb-2 rounded-circle fa-instagram"></i>
+                            <a href="https://www.linkedin.com/in/prashantchaudhary11/" target='_blank' className='text-decoration-none'><i class="fa-brands socialIcons d-flex align-items-center justify-content-center mb-2 rounded-circle fa-linkedin-in"></i></a>
+                            <a href="https://github.com/Prashant-Chaudhary-11" target='_blank' className='text-decoration-none'><i class="fa-brands socialIcons d-flex align-items-center justify-content-center mb-2 rounded-circle fa-github"></i></a>
+                            <a href="https://www.instagram.com/p_r_chaudhary11/" target='_blank' className='text-decoration-none'><i class="fa-brands socialIcons d-flex align-items-center justify-content-center mb-2 rounded-circle fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
