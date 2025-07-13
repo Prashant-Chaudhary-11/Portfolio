@@ -41,8 +41,8 @@ Welcome to my personal developer portfolio! This site showcases my professional 
 To run this project locally:
 
 ```bash
-git clone https://github.com/Prashant-Chaudhary-11/portfolio-website.git
-cd portfolio-website
+git clone https://github.com/Prashant-Chaudhary-11/Portfolio.git
+cd portfolio
 npm install
 npm start
 ```
