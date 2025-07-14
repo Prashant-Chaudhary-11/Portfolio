@@ -17,7 +17,6 @@ export const Projects = () => {
                         Tech Highlights: PyMuPDF for parsing, FastAPI for backend, TF-IDF vector search, Gemini AI integration, and PDF.js frontend rendering.
                     </div>
                     <div className="mt-3">
-                        {/* Optional: Add live demo button if available */}
                         <a href="https://chattingwithpdf.netlify.app/" target="_blank" rel="noopener noreferrer">
                             <button className="myBtn outlineBtn me-3">
                                 <i className="fa-solid fa-arrow-up-right-from-square"></i> Live
