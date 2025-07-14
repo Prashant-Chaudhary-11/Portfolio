@@ -1,6 +1,3 @@
-import collegeLogo from '../static/collegeLogo.png';
-import collegeLogoSmall from '../static/collegeLogo_small.png';
-
 export const Experience = () => {
     return (
         <section id="experience">

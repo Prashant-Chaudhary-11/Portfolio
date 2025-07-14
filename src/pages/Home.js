@@ -11,7 +11,7 @@ export const Home = () => {
                         <h1>a Creative <span className='yellowWords'>Web Developer</span></h1>
                         <p className='my-3'>I'm an experienced full-stack web developer skilled in building dynamic and responsive websites, with a strong focus on delivering high-quality solutions.</p>
                         <div>
-                            <a href={cv} target='_blank' className='text-decoration-none'><button className='yellowButton myBtn'>Download CV</button></a>
+                            <a href={cv} target='_blank' rel="noreferrer noopener" className='text-decoration-none'><button className='yellowButton myBtn'>Download CV</button></a>
                         </div>
                     </div>
                 </div>
@@ -19,9 +19,9 @@ export const Home = () => {
                     <div className="image-container rounded-3 position-relative">
                         <img src={prashantImage} alt="Prashant Chaudhary" className="paint-img w-100 h-100" />
                         <div className='position-absolute start-0 bottom-0 iconsDiv p-2 rounded-end-4'>
-                            <a href="https://www.linkedin.com/in/prashantchaudhary11/" target='_blank' className='text-decoration-none'><i class="fa-brands socialIcons d-flex align-items-center justify-content-center mb-2 rounded-circle fa-linkedin-in"></i></a>
-                            <a href="https://github.com/Prashant-Chaudhary-11" target='_blank' className='text-decoration-none'><i class="fa-brands socialIcons d-flex align-items-center justify-content-center mb-2 rounded-circle fa-github"></i></a>
-                            <a href="https://www.instagram.com/p_r_chaudhary11/" target='_blank' className='text-decoration-none'><i class="fa-brands socialIcons d-flex align-items-center justify-content-center mb-2 rounded-circle fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/prashantchaudhary11/" target='_blank' rel="noreferrer noopener" className='text-decoration-none'><i class="fa-brands socialIcons d-flex align-items-center justify-content-center mb-2 rounded-circle fa-linkedin-in"></i></a>
+                            <a href="https://github.com/Prashant-Chaudhary-11" target='_blank' rel="noreferrer noopener" className='text-decoration-none'><i class="fa-brands socialIcons d-flex align-items-center justify-content-center mb-2 rounded-circle fa-github"></i></a>
+                            <a href="https://www.instagram.com/p_r_chaudhary11/" target='_blank' rel="noreferrer noopener" className='text-decoration-none'><i class="fa-brands socialIcons d-flex align-items-center justify-content-center mb-2 rounded-circle fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>
