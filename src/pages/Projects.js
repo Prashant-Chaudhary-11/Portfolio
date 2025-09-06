@@ -6,7 +6,7 @@ export const Projects = () => {
 
                 {/* Chat with PDF Project */}
                 <div className="mx-auto projectsDiv p-4 rounded-3 my-3">
-                    <div className="mb-2 yellowWords">Chat with PDF</div>
+                    <div className="mb-2 yellowWords">ZyraWear</div>
                     <div className="mb-2">
                         Made with: HTML, JavaScript (Vanilla), Python (FastAPI), PDF.js, Gemini Pro API, TF-IDF
                     </div>
