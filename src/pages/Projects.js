@@ -4,25 +4,28 @@ export const Projects = () => {
             <div className="projects p-3">
                 <h1 className="text-center">Projects</h1>
 
-                {/* Chat with PDF Project */}
+                {/* ZyraWear Project */}
                 <div className="mx-auto projectsDiv p-4 rounded-3 my-3">
                     <div className="mb-2 yellowWords">ZyraWear</div>
                     <div className="mb-2">
-                        Made with: HTML, JavaScript (Vanilla), Python (FastAPI), PDF.js, Gemini Pro API, TF-IDF
+                        Made with: React.js, Bootstrap 5, React Router, Font Awesome
                     </div>
                     <div className="mb-2">
-                        A full-stack web app where users can upload a PDF, ask questions about it, and receive answers based on the document’s content using vector search and Gemini Pro. Features include PDF preview on the left, chat interface on the right, text chunking with TF-IDF, and semantic search via cosine similarity. Gemini API is used to generate context-aware answers.
+                        ZyraWear is a modern e-commerce platform designed to provide a stylish and smooth shopping
+                        experience. It features product browsing, product details, wishlist, shopping cart, login/register
+                        system, and a custom 404 page. Built with React and Bootstrap 5 for a fully responsive UI.
                     </div>
                     <div className="mb-2">
-                        Tech Highlights: PyMuPDF for parsing, FastAPI for backend, TF-IDF vector search, Gemini AI integration, and PDF.js frontend rendering.
+                        Tech Highlights: React Router v6 for navigation, Bootstrap 5 for responsive design,
+                        Font Awesome icons, and modular reusable components for scalability.
                     </div>
                     <div className="mt-3">
-                        <a href="https://chattingwithpdf.netlify.app/" target="_blank" rel="noopener noreferrer">
+                        <a href="https://zyrawear.netlify.app/" target="_blank" rel="noopener noreferrer">
                             <button className="myBtn outlineBtn me-3">
                                 <i className="fa-solid fa-arrow-up-right-from-square"></i> Live
                             </button>
                         </a>
-                        <a href="https://github.com/Prashant-Chaudhary-11/Chat-with-PDF" target="_blank" rel="noopener noreferrer">
+                        <a href="https://github.com/Prashant-Chaudhary-11/ZyraWear" target="_blank" rel="noopener noreferrer">
                             <button className="myBtn outlineBtn">
                                 <i className="fa-brands fa-github"></i> GitHub
                             </button>
@@ -37,7 +40,10 @@ export const Projects = () => {
                     <div className="mb-2 yellowWords">CryptoCrowd</div>
                     <div className="mb-2">Made with: HTML, CSS, JavaScript, Bootstrap</div>
                     <div className="mb-2">
-                        Cryptocurrency sentiment analysis website based on Twitter posts. Users can see the overall sentiment (positive, negative or neutral) of different Cryptocurrencies based on what people are currently posting on Twitter. Users can also see keywords and an average sentiment score. Stateless application that uses Elasticache and S3 on AWS. It also used EC2 and auto-scaling to manage demand.
+                        Cryptocurrency sentiment analysis website based on Twitter posts. Users can see the overall sentiment
+                        (positive, negative or neutral) of different Cryptocurrencies based on what people are currently posting
+                        on Twitter. Users can also see keywords and an average sentiment score. Stateless application that uses
+                        Elasticache and S3 on AWS. It also used EC2 and auto-scaling to manage demand.
                     </div>
                     <div className="mt-3">
                         <button className="myBtn outlineBtn me-3">
